@@ -20,14 +20,11 @@
     "vendor/first-project": "dev-main",
     "package1": "^1.0",
     "package2": "^2.0",
-    "require": {
-        "vendor/first-project": "^1.0"
-    },
     
     "repositories": [
         {
             "type": "vcs",
-            "url": "https://github.com/vendor/first-project"
+            "url": "https://github.com/vendor/FirstProject"
         }
     ]
 }
