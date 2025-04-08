@@ -1,0 +1,33 @@
+{
+    "name": "lenovo/first-project",
+    "autoload": {
+        "psr-4": {
+            "Lenovo\\FirstProject\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "jamalsaifi59",
+            "email": "jamalsaifi379@gmail.com"
+        }
+    ],
+    "require": {},
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "laravel/framework": "^9.0",
+    "monolog/monolog": "^2.0",
+    "vendor-first-project/package1": "^1.0",
+    "vendor/first-project": "dev-main",
+    "package1": "^1.0",
+    "package2": "^2.0",
+    "require": {
+        "vendor/first-project": "^1.0"
+    },
+    
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/vendor/first-project"
+        }
+    ]
+}
